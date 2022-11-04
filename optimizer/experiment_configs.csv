@@ -1,0 +1,11 @@
+ExperimentId,model,Paralell,CPU
+Exp1,Cifar10CNN,2,0.5
+Exp2,Cifar10ResNet,5,1
+Exp3,Cifar10ResNet,3,1.2
+Exp4,Cifar10CNN,5,1
+Exp5,Cifar10CNN,3,0.5
+Exp6,Cifar10ResNet,10,0.5
+Exp7,Cifar10ResNet,3,1.2
+Exp8,Cifar10CNN,5,1
+Exp9,Cifar10CNN,3,0.5
+Exp10,Cifar10ResNet,10,0.5

@@ -1,0 +1,1046 @@
+{
+    "67233d40-2e4f-49dd-ac6a-fc907ec2389b": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3525100317,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "dab16c21-6ab5-4579-bf67-dedbb7c8e1e4": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3333813235,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "d7bcdb3e-2a0f-4d44-aad7-44385ad2ae6c": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 1653459514,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "a0657d60-64e5-40ef-ada9-38b1bcb3500b": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2117414640,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "a18669f3-d117-4b79-b114-1c8d269e1bb3": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 428745159,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "e67ad7f9-654a-4a9d-8777-3089108b8c53": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 786669843,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "9e196c4d-84f3-479e-93db-fd7db09dba20": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 1758409464,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "202887ef-7675-4b99-8543-cd39170f5780": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 136064561,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "2829c78e-fa97-423b-b98a-b4b77fe0f290": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2226215882,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "6f9b266f-2305-4b64-aa20-e4a2e115ee4b": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 1041122920,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "83fef6ee-f3b5-480d-af22-8775d7c8bbac": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 512944510,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "92148ee2-7ef8-401e-93fd-b0222b397ea1": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 132974600,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "bd3d1fe5-d427-481e-8173-5bcb002e802a": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 4263540781,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "d80bb4fe-55ae-4342-a86b-458739e20627": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3554671794,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "d352a8cc-9ad5-414e-a860-e77c90726176": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2373117920,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "30d0c147-d215-4370-b9af-7461e47f8ddc": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3830031252,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "ee4d842f-9edd-4e65-9b5b-df4f41767a10": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 4035618774,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 5
+    },
+    "a0d21d24-f5e4-4048-b458-87bcfbed5bbb": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2076328479,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "c711dce0-a2a1-47db-ae9c-98f95b44f978": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 1474224046,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "63c4c3c0-c29d-4020-bf05-759c2370be1d": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2341021917,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "9c7665ee-c040-4e1f-852c-bc545ca35c2b": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2130511722,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "2c824a08-b988-4c1a-b587-bbfb263f5fae": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3793772530,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "b6347c55-b28f-4fcb-b5c3-b9312649b2a2": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 298839409,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "b4fcf50a-d9e7-46fa-8c9f-636c02783ed4": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3021042074,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "9a1a4602-d167-4b32-8b7b-f089e5599454": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2276969332,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "796e27cb-e328-4506-be96-d0e6b5ec584d": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10ResNet",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 4196162687,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "f76965f9-1ca5-4bcc-aec8-a3eef65f02f2": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3087587177,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "500m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    },
+    "e4fbb6a8-fff8-45b3-9a55-ef2053da38e3": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 3402216436,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "2000m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 3
+    },
+    "1c28d7bb-27f1-4ec4-9424-92c5297a62e8": {
+        "replication": 0,
+        "batch_size": 64,
+        "test_batch_size": 64,
+        "cuda": false,
+        "scheduler_step_size": 50,
+        "scheduler_gamma": 0.5,
+        "min_lr": "1e-10",
+        "optimizer": "Adam",
+        "optimizer_args": {
+            "lr": 0.001,
+            "betas": [
+                0.9,
+                0.999
+            ]
+        },
+        "model": "Cifar10CNN",
+        "dataset": "cifar10",
+        "max_epoch": 5,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "seed": 2196211146,
+        "loss": "CrossEntropyLoss",
+        "Events": "<none>",
+        "Resources": {
+            "limits": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            },
+            "requests": {
+                "cpu": "1200m",
+                "memory": "2Gi"
+            }
+        },
+        "Paralell": 2
+    }
+}
